@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SaaS Order & Service Management Platform (Industry-Level) — Full Stack (React + Node + MySQL)
 
 A production-style, multi-role web app with:
@@ -81,3 +82,6 @@ saas-order-service-platform/
 
 ## Live Map
 - Deliveries page includes **Live Delivery Map** with real-time marker + route path (OSRM routing).
+=======
+# saas-order-service-platform
+>>>>>>> 10470318588468a237ebaf46f54d31742c839436
