@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================= ROOT THEME ================= */
+:root {
+  color-scheme: dark;
+
+  --bg-main: #070912;
+  --bg-soft: #0d1024;
+  --bg-card: rgba(255,255,255,0.06);
+
+  --text-main: #eaf0ff;
+  --text-muted: rgba(234,240,255,0.65);
+
+  --accent-primary: #7b7cff;
+  --accent-secondary: #39ffb6;
+  --accent-glow: rgba(123,124,255,0.45);
+
+  --border-soft: rgba(255,255,255,0.12);
+
+  --radius: 18px;
+}
+
+/* ================= GLOBAL ================= */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  color: var(--text-main);
+  background:
+    radial-gradient(1000px 600px at 15% 10%, rgba(123,124,255,0.18), transparent 55%),
+    radial-gradient(900px 500px at 85% 30%, rgba(57,255,182,0.14), transparent 55%),
+    linear-gradient(180deg, #060812, #050612);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ================= LINKS ================= */
+a {
+  color: var(--accent-primary);
+  text-decoration: none;
+  transition: color .2s ease, text-shadow .2s ease;
+}
+a:hover {
+  color: var(--accent-secondary);
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+
+/* ================= GLASS CARD ================= */
+.card, .glass {
+  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 18px 50px rgba(0,0,0,0.55),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+  transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+
+/* 3D Hover Effect */
+.card:hover, .glass:hover {
+  transform: perspective(1000px) rotateX(6deg) rotateY(-6deg) translateY(-6px);
+  border-color: rgba(123,124,255,0.45);
+  box-shadow:
+    0 30px 70px rgba(0,0,0,0.7),
+    0 0 30px rgba(123,124,255,0.35);
+}
+
+/* ================= BUTTONS ================= */
+.btn {
+  background: linear-gradient(135deg, var(--accent-primary), #5b7cff);
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 10px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .25s ease, filter .25s ease;
+  box-shadow: 0 10px 30px rgba(123,124,255,0.35);
+}
+
+.btn:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 18px 45px rgba(123,124,255,0.5);
+  filter: brightness(1.05);
+}
+
+.btn:active {
+  transform: translateY(0) scale(1);
+}
+
+/* Ghost Button */
+.btn-ghost {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border-soft);
+  color: var(--text-main);
+}
+.btn-ghost:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* ================= INPUTS ================= */
+input, select, textarea {
+  width: 100%;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border-soft);
+  border-radius: 14px;
+  padding: 12px 14px;
+  color: var(--text-main);
+  outline: none;
+  transition: border-color .25s ease, box-shadow .25s ease, background .25s ease;
+}
+
+input::placeholder {
+  color: var(--text-muted);
+}
+
+input:focus, select:focus, textarea:focus {
+  background: rgba(255,255,255,0.08);
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 3px rgba(123,124,255,0.25);
+}
+
+/* ================= ICON STYLE ================= */
+.icon {
+  color: var(--accent-primary);
+  transition: transform .25s ease, color .25s ease;
+}
+.icon:hover {
+  transform: scale(1.2) rotate(-6deg);
+  color: var(--accent-secondary);
+}
+
+/* ================= BADGES ================= */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border-soft);
+  color: var(--text-main);
+}
+
+/* ================= TRANSITIONS ================= */
+.fade-in {
+  animation: fadeIn .6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ================= SCROLLBAR ================= */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #040510;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--accent-primary), var(--accent-secondary));
+  border-radius: 10px;
+}
