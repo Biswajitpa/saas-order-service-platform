@@ -1,11 +1,5 @@
 
 
-<!-- 🧠 LOGO SECTION -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/your-repo/main/assets/logo.png" 
-       alt="Project Logo" width="160"/>
-</p>
-
 <h1 align="center">🚀 SaaS Order & Service Management Platform</h1>
 
 <p align="center">
