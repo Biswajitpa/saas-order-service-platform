@@ -95,34 +95,15 @@ Live GPS + Delivery Tracking Module
 ---
 
 ## 📁 Project Structure
-saas-order-service-platform/
 ├── backend/
-│ ├── src/
-│ │ ├── controllers/
-│ │ ├── routes/
-│ │ ├── models/
-│ │ ├── middleware/
-│ │ ├── config/
-│ │ └── app.ts
-│ ├── uploads/
-│ ├── package.json
-│ └── .env
+│   ├── services/        (business logic layer)
+│   ├── utils/           (helper functions)
+│   ├── validators/      (zod schemas)
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── hooks/
-│ │ ├── services/
-│ │ ├── assets/
-│ │ └── App.tsx
-│ ├── public/
-│ ├── package.json
-│ └── vite.config.ts
-│
-├── docker-compose.yml
-├── README.md
-└── .gitignore
+│   ├── context/         (global state)
+│   ├── utils/
+│   ├── constants/
 ---
 
 ## 🌍 Live Features
