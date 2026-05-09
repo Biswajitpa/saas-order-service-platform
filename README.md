@@ -97,15 +97,14 @@ Live GPS + Delivery Tracking Module
 📁 Project Structure
 
 ├── backend/
-│   ├── services/        # business logic layer
-│   ├── utils/           # helper functions
-│   └── validators/      # Zod schemas
+│   ├── services/      (business logic layer)
+│   ├── utils/         (helper functions)
+│   └── validators/    (Zod schemas)
 
 ├── frontend/
-│   ├── context/         # global state
+│   ├── context/       (global state)
 │   ├── utils/
 │   └── constants/
-
 
 ## 🌍 Live Features
 
@@ -137,7 +136,7 @@ Live GPS + Delivery Tracking Module
 
 ## 👨‍💻 Developer
 
-- Name: Your Name  
+- Name: Biswajit pattanaik
 - Role: Full Stack Developer (SaaS + IoT + Embedded Systems)  
 - Skills: React | Node.js | MySQL | ESP32 | IoT | Cloud  
 
