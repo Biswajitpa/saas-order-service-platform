@@ -94,15 +94,18 @@ Live GPS + Delivery Tracking Module
 
 Project Structure
 
+Project Structure
+
 backend/
-├── services/      # business logic layer
-├── utils/         # helper functions
-└── validators/    # Zod schemas
+- services (business logic layer)
+- utils (helper functions)
+- validators (Zod schemas)
 
 frontend/
-├── context/       # global state
-├── utils/
-└── constants/
+- context (global state)
+- utils
+- constants
+  
 ## 🌍 Live Features
 
 - 📍 Real-time delivery GPS tracking  
