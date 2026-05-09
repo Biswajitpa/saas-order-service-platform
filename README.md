@@ -94,17 +94,18 @@ Live GPS + Delivery Tracking Module
 
 ---
 
-## 📁 Project Structure
+📁 Project Structure
+
 ├── backend/
-│   ├── services/        (business logic layer)
-│   ├── utils/           (helper functions)
-│   ├── validators/      (zod schemas)
-│
+│   ├── services/        # business logic layer
+│   ├── utils/           # helper functions
+│   └── validators/      # Zod schemas
+
 ├── frontend/
-│   ├── context/         (global state)
+│   ├── context/         # global state
 │   ├── utils/
-│   ├── constants/
----
+│   └── constants/
+
 
 ## 🌍 Live Features
 
