@@ -86,12 +86,12 @@ Live GPS + Delivery Tracking Module
 
 📁 Project Structure
 
-1.  backend/
+1.  backend 
 - services (business logic layer)
 - utils (helper functions)
 - validators (Zod schemas)
 
-2. frontend/
+2. frontend 
 - context (global state)
 - utils
 - constants
