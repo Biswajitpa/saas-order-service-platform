@@ -1,0 +1,35 @@
+<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="50%" stop-color="#C084FC"/>
+      <stop offset="100%" stop-color="#818CF8">
+        <animate attributeName="offset" values="0.9;1.4;0.9" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="160" rx="16" fill="url(#bg)"/>
+
+  <text x="450" y="72" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="700"
+        fill="url(#titleGrad)" text-anchor="middle">
+    SaaS Order &amp; Service Management Platform
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+  </text>
+
+  <text x="450" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400"
+        fill="#94A3B8" text-anchor="middle">
+    Real-Time Orders • Live GPS Tracking • Role-Based Access
+    <animate attributeName="opacity" values="0;0;1" dur="1.8s" fill="freeze"/>
+  </text>
+
+  <text x="450" y="134" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="500"
+        fill="#6366F1" text-anchor="middle">
+    Crafted &amp; Maintained by Biswajit Pattanaik
+    <animate attributeName="opacity" values="0;0;0;1" dur="2.6s" fill="freeze"/>
+  </text>
+</svg>
