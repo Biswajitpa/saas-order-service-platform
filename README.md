@@ -2,7 +2,7 @@
 
 <!-- Animated typing banner -->
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&pause=1000&color=6366F1&center=true&vCenter=true&width=700&lines=SaaS+Order+%26+Service+Management+Platform;Real-Time+Orders+%E2%80%A2+Live+Delivery+Tracking;Role-Based+Access+%E2%80%A2+Modern+Full-Stack+SaaS" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&pause=1000&color=6366F1&center=true&vCenter=true&width=900&height=50&lines=SaaS+Order+%26+Service+Management;Real-Time+Orders+%E2%80%A2+Live+GPS+Tracking;Role-Based+Access+%E2%80%A2+Modern+SaaS" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -203,6 +203,6 @@ If this project helped you or inspired your own build:
 
 ### 💡 Crafted & Maintained by **Biswajit Pattanaik**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1500&color=22C55E&center=true&vCenter=true&width=500&lines=Built+with+%E2%9D%A4%EF%B8%8F+by+Biswajit+Pattanaik;Full+Stack+%7C+SaaS+%7C+IoT+%7C+Embedded+Systems" alt="Footer Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1500&color=22C55E&center=true&vCenter=true&width=600&height=40&lines=Built+with+%E2%9D%A4%EF%B8%8F+by+Biswajit+Pattanaik;Full+Stack+%7C+SaaS+%7C+IoT+%7C+Embedded" alt="Footer Typing SVG" />
 
 </div>
